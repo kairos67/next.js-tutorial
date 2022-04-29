@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Divider, Header } from "semantic-ui-react";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return (
-   <div>create-next-app    </div>
-  )
+  return <div> Next.js is running </div>;
 }
