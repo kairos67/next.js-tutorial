@@ -1,7 +1,8 @@
-import { Axios } from "axios";
+import Axios  from "axios";
 import Head from "next/head";
 import Image from "next/image";
-import { useEffect, useInsertionEffect } from "react/cjs/react.production.min";
+import { useEffect, useState } from "react";
+//import { useEffect, useInsertionEffect } from "react/cjs/react.production.min";
 import { Divider, Header } from "semantic-ui-react";
 import styles from "../styles/Home.module.css";
 
@@ -16,7 +17,7 @@ export default function Home() {
   useEffect(()=>{
     getData();
   },[]);
-  
+
   return (
     <div>
       <Head>
