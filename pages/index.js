@@ -1,11 +1,13 @@
 import Axios from "axios";
 import Head from "next/head";
+// eslint-disable-next-line no-unused-vars
 import Image from "next/image";
 import { useEffect, useState } from "react";
 //import { useEffect, useInsertionEffect } from "react/cjs/react.production.min";
 import { Divider, Header, Loader } from "semantic-ui-react";
 import ItemList from "../src/component/ItemList";
 import styles from "../styles/Home.module.css";
+import React from "react";
 
 export default function Home() {
   const [list, setList] = useState([]);
